@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Arrays</title>
+	
+</head>
+<body>
+<h1>Array Check</h1>
+	<h2 id="ch">You</h2>
+	<table border="2" width="50%" height="50%">
+	<script type="text/javascript">
+	var elem=document.getElementById("ch")
+		var arr=[[1,'ram',100],[2,'sham',200],[3,'param',300]]
+		<tr>
+		<th>Id</th>
+		<th>Name</th>
+		<th>Sal</th>
+		</tr>
+		for (var i in arr) {
+			//document.write("<h1>"+arr[i]+"</h1>")
+			//elem.innerHTML += arr[i]
+			document.write("<tr>")
+			document.write("<td>"+"    "+arr[i][0]+"    "+"</td>")
+			document.write("<td>"+"    "+arr[i][1]+"    "+"</td>")
+			document.write("<td>"+"    "+arr[i][2]+"    "+"</td>")
+			document.write("</tr>")
+		}
+	</script>
+</table>
+</body>
+</html>
